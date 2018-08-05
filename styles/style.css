@@ -11,12 +11,24 @@ body{
   display:flex;
   justify-content: space-around;
   width: 100px;
-  bottom:5px;
+  bottom:10px;
   right: 30px;
 }
 
+.icon i{
+  padding: 2px;
+  margin-right: 10px;
+}
+
+.icon i:hover{
+  border-bottom: 1px solid black;
+}
+
+
+
 .header-top .icon i{
   padding: 10px;
+  padding-bottom: 5px;
   font-size: 20px;
   color: inherit;
 }
