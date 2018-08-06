@@ -1,5 +1,7 @@
 body{
   background-color: #ABC;
+  height: 2000px;
+  margin: 0 auto;
 }
 
 .header-top{
@@ -146,6 +148,10 @@ body{
     height: 200px;
     margin: 10px auto;
   }
+   .main_image {
+    background-color: black;
+  }
+
 }
 .main_image{
   text-align: center;
@@ -159,4 +165,42 @@ main{
 .main_image img{
   margin-left: 30px;
   border-radius: 8px;
+}
+.bottom{
+  display: flex;
+  flex-grow: 1;
+}
+
+.bottom_info {
+  display: flex;
+  outline: 2px solid white;
+  background-color: rgba(255,255,255, 0.5);
+
+}
+
+.bottom_info ul li {
+  padding: 9px 5px;
+  text-align: center;
+  margin-top: 5px;
+  background-color: #afaaaa;
+  border-radius: 5px;
+}
+
+.bottom_info a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.bottom_main {
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+@media (max-width:650px) {
+  .bottom_info .bottom_menu ul li, .bottom_aside{
+    display: none;
+  }
 }
