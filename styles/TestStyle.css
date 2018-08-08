@@ -57,13 +57,14 @@
   }
 
 
-  .select div:nth-child(4){
-    flex-grow: 4;
+  .select div:last-child{
+    flex-grow: 1;
 }
   input[type=text]{
     width: 240px;
     height: 20px;
     margin-top: 15px;
+    text-align: center;
   }
 
   .select .icons{
@@ -100,19 +101,21 @@
     border-radius: 5px;
     background-color: black;
     margin: 2px 5px;
-    width: 90px;
+    width: 50px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
+  .number div:hover{
+    background-color: rgba(255,255,255,0.5);
+    border-bottom: 2px solid red;
+  }
+
   .number a{
     color: inherit;
   }
 
-  .number a{
-
-  }
 
 </style>
