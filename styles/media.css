@@ -1,0 +1,13 @@
+
+  @media (max-width:1050px) {
+    .box{
+      display: none;
+    }
+    body::before{
+      font-size: 50px;
+      content: '화면을 크게 해주세요.';
+      display: flex;
+      justify-content: center;
+      margin-top: 400px;
+    }
+  }

@@ -60,12 +60,13 @@
   .select div:last-child{
     flex-grow: 1;
 }
+/*
   input[type=text]{
     width: 240px;
     height: 20px;
     margin-top: 15px;
     text-align: center;
-  }
+  } */
 
   .select .icons{
     display: flex;
@@ -116,18 +117,4 @@
   .number a{
     color: inherit;
   }
-
-  @media (max-width:1050px) {
-    .box{
-      display: none;
-    }
-    body::before{
-      font-size: 50px;
-      content: '화면을 크게 해주세요.';
-      display: flex;
-      justify-content: center;
-      margin-top: 400px;
-    }
-  }
-
 </style>

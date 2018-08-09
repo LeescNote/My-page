@@ -10,6 +10,10 @@ body{
  outline: 2px solid white;
 }
 
+.header-top{
+  position: relative;
+}
+
 .icon {
   position: absolute;
   display:flex;
