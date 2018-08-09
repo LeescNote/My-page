@@ -1,0 +1,9 @@
+
+@media (max-width:900px) {
+  #wrapper{
+    width: 80%;
+  }
+  .info span{
+    display: none;
+  }
+}
