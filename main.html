@@ -29,6 +29,18 @@
     </header>
     <main>
       <div class="mypage">
+        <input id="moon" type="button" value="moon" onclick="
+        if (document.querySelector('#moon').value === 'moon'){
+        document.querySelector('main').style.backgroundColor = 'black';
+        document.querySelector('main').style.color = 'white';
+        document.querySelector('#moon').value = 'sun';
+      }else{
+      document.querySelector('main').style.backgroundColor = 'white';
+      document.querySelector('main').style.color = 'black';
+      document.querySelector('#moon').value = 'moon';
+    }
+      ">
+
         <!-- 깃헙 페이지  -->
         <ul>
             <li><a href="https://Leescnote.github.io/My-page">음식점 소개하기</a></li>
